@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/face-finder/static/css/main.2f9cd09d.chunk.css",
+    "main.js": "/face-finder/static/js/main.e4000a56.chunk.js",
+    "main.js.map": "/face-finder/static/js/main.e4000a56.chunk.js.map",
+    "runtime-main.js": "/face-finder/static/js/runtime-main.832a78ff.js",
+    "runtime-main.js.map": "/face-finder/static/js/runtime-main.832a78ff.js.map",
+    "static/css/2.6d7c7915.chunk.css": "/face-finder/static/css/2.6d7c7915.chunk.css",
+    "static/js/2.a2daf019.chunk.js": "/face-finder/static/js/2.a2daf019.chunk.js",
+    "static/js/2.a2daf019.chunk.js.map": "/face-finder/static/js/2.a2daf019.chunk.js.map",
+    "static/js/3.9f2d469f.chunk.js": "/face-finder/static/js/3.9f2d469f.chunk.js",
+    "static/js/3.9f2d469f.chunk.js.map": "/face-finder/static/js/3.9f2d469f.chunk.js.map",
+    "index.html": "/face-finder/index.html",
+    "static/css/2.6d7c7915.chunk.css.map": "/face-finder/static/css/2.6d7c7915.chunk.css.map",
+    "static/css/main.2f9cd09d.chunk.css.map": "/face-finder/static/css/main.2f9cd09d.chunk.css.map",
+    "static/js/2.a2daf019.chunk.js.LICENSE.txt": "/face-finder/static/js/2.a2daf019.chunk.js.LICENSE.txt",
+    "static/media/owl-logo.be305bd4.png": "/face-finder/static/media/owl-logo.be305bd4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.832a78ff.js",
+    "static/css/2.6d7c7915.chunk.css",
+    "static/js/2.a2daf019.chunk.js",
+    "static/css/main.2f9cd09d.chunk.css",
+    "static/js/main.e4000a56.chunk.js"
+  ]
+}
