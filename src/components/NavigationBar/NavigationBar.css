@@ -1,0 +1,5 @@
+.navigation-bar{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 20px;
+}
