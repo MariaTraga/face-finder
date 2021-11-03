@@ -1,4 +1,5 @@
 import React from "react";
+import apiUrl from "../../ApiUrl";
 
 class Register extends React.Component{ 
     
@@ -24,7 +25,7 @@ class Register extends React.Component{
     }
 
     onSubmitSignIn = () =>{
-        fetch('http://127.0.0.1:3000/register',{
+        fetch(apiUrl+'/register',{
             method:'post',
             headers:{
                 'Content-Type':'application/json'

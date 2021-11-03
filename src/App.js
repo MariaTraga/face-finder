@@ -7,6 +7,7 @@ import Rank from './components/Rank/Rank';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import SignIn from './components/SignIn/SignIn';
 import Register from './components/Register/Register';
+import apiUrl from './ApiUrl';
 import './App.css';
 import 'tachyons';
 import Particles from 'react-particles-js';
@@ -84,6 +85,7 @@ const initialState = {
   } 
 }
 
+
 class App extends Component {
 
   constructor(){
@@ -104,33 +106,13 @@ class App extends Component {
     )
   }
 
-  // componentDidMount(){
-
-  //   // const myFunc = async () => {
-  //   //     try{
-  //   //       const response = await fetch('127.0.0.1:3000/');
-  //   //       let responseJson = await response.json();
-  //   //       console.log(responseJson);
-  //   //     }
-  //   //     catch(err){
-  //   //       console.log(err);
-  //   //     }
-  //   // }
-
-  //   // myFunc();
-
-  //   fetch('http://127.0.0.1:3000/')
-  //   .then(response => response.json())
-  //   .then((data)=>console.log(data));
-  // }
-
   onInputChange = (event) =>{
     this.setState({input:event.target.value});
   }
 
   onPictureSubmit = () =>{
     this.setState({imageURL:this.state.input,boxes:[]});
-    fetch('http://127.0.0.1:3000/imageurl',{
+    fetch(apiUrl+'/imageurl',{
       method:'post',
       headers:{'Content-Type':'application/json'},
       body: JSON.stringify({
@@ -140,7 +122,7 @@ class App extends Component {
     .then(response=>response.json())
     .then(response=> {
       if(response){
-        fetch('http://127.0.0.1:3000/image', {
+        fetch(apiUrl+'/image', {
           method:'put',
           headers:{'Content-Type':'application/json'},
           body: JSON.stringify({
