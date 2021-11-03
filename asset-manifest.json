@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/face-finder/static/css/main.2f9cd09d.chunk.css",
-    "main.js": "/face-finder/static/js/main.e4000a56.chunk.js",
-    "main.js.map": "/face-finder/static/js/main.e4000a56.chunk.js.map",
+    "main.js": "/face-finder/static/js/main.d805fab3.chunk.js",
+    "main.js.map": "/face-finder/static/js/main.d805fab3.chunk.js.map",
     "runtime-main.js": "/face-finder/static/js/runtime-main.832a78ff.js",
     "runtime-main.js.map": "/face-finder/static/js/runtime-main.832a78ff.js.map",
     "static/css/2.6d7c7915.chunk.css": "/face-finder/static/css/2.6d7c7915.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.6d7c7915.chunk.css",
     "static/js/2.a2daf019.chunk.js",
     "static/css/main.2f9cd09d.chunk.css",
-    "static/js/main.e4000a56.chunk.js"
+    "static/js/main.d805fab3.chunk.js"
   ]
 }
